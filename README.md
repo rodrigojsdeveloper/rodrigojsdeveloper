@@ -1,16 +1,56 @@
-### Hi there 👋
+<h1 align="center" display="inline">Rodrigo Silva - Desenvolvedor Full Stack</h1>
 
-<!--
-**Rodrigodeveloperjr/Rodrigodeveloperjr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```cpp
+interface IDeveloper {
+  name: string;
+  occupation: string;
+  level: string;
+}
 
-Here are some ideas to get you started:
+class Developer {
+  private name: string;
+  private occupation: string;
+  private level: string;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  constructor(name: string, occupation: string, level: string) {
+    this.name = name;
+    this.occupation = occupation;
+    this.level = level;
+  }
+
+  public getDeveloper(): IDeveloper {
+    return {
+      name: this.name,
+      occupation: this.occupation,
+      level: this.level,
+    };
+  }
+}
+
+const developer = new Developer("Rodrigo Silva", "Full Stack Developer", "Júnior");
+```
+
+<div align="center" display="inline">
+  <a href="https://github.com/Rodrigodeveloperjr">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rodrigodeveloperjr&show_icons=true&theme=transparent&hide_border=true&count_private=true" width="430px"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rodrigodeveloperjr&layout=compact&theme=transparent&hide_border=true" width="410px"/>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,styledcomponents,tailwind,redux,jest,nodejs,express,prisma,python,django,postgres,mysql,mongodb,docker,figma,git,github" />
+</div>
+
+----
+
+<div align="center">
+  <a href="mailto:rodrigojsdeveloper@gmail.com" alt="Link para Gmail" rel="noreferrer" target="_blank">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/rodrigo-de-jesus-silva/" alt="Link para Linkedin" rel="noreferrer" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://portfolio-rodrigo-silva.vercel.app/" alt="Link para meu site(portfólio)" rel="noreferrer" target="_blank">
+  <img src="https://img.shields.io/badge/Meu%20Website-EDD11D?style=for-the-badge" /></a>
+</div>
