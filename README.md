@@ -46,8 +46,6 @@ const developer = new Developer("Rodrigo Silva", "Full Stack Developer", "Júnio
 ----
 
 <div align="center">
-  <a href="https://portfolio-rodrigo-silva.vercel.app/" alt="Link para meu Portfólio" rel="noreferrer" target="_blank">
-  <img src="https://img.shields.io/badge/Meu%20Website-EDD11D?style=for-the-badge" /></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/rodrigo-de-jesus-silva/" alt="Link para Linkedin" rel="noreferrer" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -55,7 +53,9 @@ const developer = new Developer("Rodrigo Silva", "Full Stack Developer", "Júnio
   <a href="mailto:rodrigojsdeveloper@gmail.com" alt="Link para Gmail" rel="noreferrer" target="_blank">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   &nbsp;
-	<a href="https://www.instagram.com/eaedigooo/" alt="Link para Instagram" rel="noreferrer" target="_blank">
-	<img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-	</a>
+  <a href="https://www.instagram.com/eaedigooo/" alt="Link para Instagram" rel="noreferrer" target="_blank">
+  <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  &nbsp;
+  <a href="https://portfolio-rodrigo-silva.vercel.app/" alt="Link para meu Portfólio" rel="noreferrer" target="_blank">
+  <img src="https://img.shields.io/badge/Portfólio-553098?style=for-the-badge" /></a>
 </div>
